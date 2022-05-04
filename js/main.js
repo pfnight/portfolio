@@ -128,6 +128,7 @@ $(function() {
      //autoplay : true,
       //dots : true,
       arrows : false,
+      draggable : false,
       //prevArrow : $('.arrow_wrap .prev'),
       //nextArrow : $('.arrow_wrap .next')
    })
