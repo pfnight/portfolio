@@ -117,8 +117,7 @@ footer {text-align: center;position: absolute;bottom: 0;left: 0;right: 0;}
 
 
 /************ work *************/
-/*work_common*/
-.work_page_wrap {width: 75%;height: 75%;position: absolute;left: 50%;transform: translate(-50%,-50%);background: #FFF;top: 50%;box-shadow: rgba(0,0,0,0.5) 15px 15px 20px;position: relative;}
+.work_page_wrap {width: 75%;height: 70%;position: absolute;left: 50%;transform: translate(-50%,-50%);background: #FFF;top: 50%;box-shadow: rgba(0,0,0,0.5) 15px 15px 20px;position: relative;}
 .page_l {width: 50%;height: 100%;position: absolute;top: 0;left: 0;}
 .work_txtarea {width: 60%;height: 73%;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-45%);}
 .page_r {position: relative;}
@@ -152,8 +151,8 @@ footer {text-align: center;position: absolute;bottom: 0;left: 0;right: 0;}
 #work_web .work_page_wrap .work_txtarea li {float: left;margin: 20px;color: #444;}
 #work_web .work_page_wrap .work_txtarea li strong {display: block;font-size: 30px;margin: 20px 0 10px;font-weight: 200;color: #333;}
 #work_web .work_page_wrap .work_txtarea li em {display: block;font-size: 18px;margin-bottom: 15px;}
-#work_web .work_page_wrap .work_txtarea li>em {margin-bottom: 30px;}
-#work_web .work_page_wrap .work_txtarea li p {display: block;font-size: 16px;margin-bottom: 30px;}
+#work_web .work_page_wrap .work_txtarea li>em {margin-bottom: 50px;}
+#work_web .work_page_wrap .work_txtarea li p {display: block;font-size: 16px;margin-bottom: 30px;line-height: 2em;}
 
 
 #work_web .work_page_wrap .page_r {width: 50%;height: 100%;position: absolute;right: 0;top: 0;}
@@ -185,6 +184,15 @@ footer {text-align: center;position: absolute;bottom: 0;left: 0;right: 0;}
 #work_graphic .work_page_wrap .work_txtarea li.g_03 img {background-image: url(../img/ps_logo.png);}
 #work_graphic .work_page_wrap .work_txtarea li.g_04 img {background-image: url(../img/ai_logo.png);}
 #work_graphic .work_page_wrap .work_txtarea li.g_05 img {background-image: url(../img/ps_logo.png);}
+
+/****그래픽 이미지 모달창*****/
+#work_graphic .work_imgarea li button {width: 100%;height: 100%;position: absolute;left: 0;right: 0;top: 0;bottom: 0;}
+#work_graphic .modal_wrap {display: none;position: absolute;top: 50%;left: 50%;transform: translate(-50%);background: #eee;z-index: 2;}
+#work_graphic .modal_wrap img {width: 100%;height: 100%;}
+#work_graphic .black_bg {display: none;position: absolute;content: "";width: 100%;height: 100%;background: rgba(0,0,0,0.5);top: 0;left: 0;z-index: 1;}
+#work_graphic .modal_close {width: 30px;height: 30px;position: absolute;top: -40px;right: 0;}
+#work_graphic .modal_close>a {display: block;width: 100%;height: 100%;background: #fff;text-indent: -9999px;background: url(../img/close.png);}
+
 
 #work_graphic .work_page_wrap .work_txtarea li ul {padding: 0;}
 #work_graphic .work_page_wrap .work_txtarea li ul li {width: 50px;height: 63px;margin: 0 15px 0 0;border: 1px solid #555;position: relative;}
